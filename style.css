@@ -226,15 +226,15 @@ td, th{
 	clear: left;
 }
 
-.titulo-principal::first-letter{
+.titulo-principal:first-letter{
 	font-weight: bold;
 }
 
-.titulo-principal::before{
+.titulo-principal:before{
 	content:"[ ";
 }
 
-.titulo-principal::after{
+.titulo-principal:after{
 	content: " ]";
 }
 
@@ -302,7 +302,7 @@ td, th{
 	font-weight: bold;
 }
 
-.itens::before{
+.itens:before{
 	content:"🟊";
 }
 
