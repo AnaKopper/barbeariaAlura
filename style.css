@@ -160,10 +160,6 @@ td, th {
 	padding: 5px 20px;
 }
 
-main{
-	
-}
-
 form{
 	margin: 40px 0;
 }
@@ -232,6 +228,14 @@ td, th{
 
 .titulo-principal::first-letter{
 	font-weight: bold;
+}
+
+.titulo-principal::before{
+	content:"[";
+}
+
+.titulo-principal::after{
+	content: "]";
 }
 
 .principal {
