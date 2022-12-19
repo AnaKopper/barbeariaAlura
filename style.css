@@ -231,11 +231,11 @@ td, th{
 }
 
 .titulo-principal::before{
-	content:"[";
+	content:"[ ";
 }
 
 .titulo-principal::after{
-	content: "]";
+	content: " ]";
 }
 
 .principal {
@@ -300,6 +300,10 @@ td, th{
 
 .itens:first-child{
 	font-weight: bold;
+}
+
+.itens::before{
+	content:"🟊";
 }
 
 .imagem-beneficios{
